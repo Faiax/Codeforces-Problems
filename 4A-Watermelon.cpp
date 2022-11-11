@@ -8,6 +8,8 @@ int main(){
     cin >> w; // inputting the varibale
     
     if(w%2==0 && w>2){ // placing the condition
+                       // && means both of the operations should be true
+                       // % =  remainder or signed remainder of a division
         cout << "YES";
     }
     else{
